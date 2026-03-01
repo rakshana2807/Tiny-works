@@ -1,0 +1,85 @@
+<html>
+<head>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="box">
+        <div class="box2">
+            <h1 class="head2">Hello, Friend !</h1>
+            <p class="txt2">Enter your personal details and start journey with us</p><br>
+            <a href="signin.html" class="btn">Go to Sign In Page</a>
+        </div>
+    </div>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to left, rgb(0, 29, 107),rgb(0, 68, 156), rgb(0, 29, 107))
+        }
+        .box {
+            display: flex;
+            width: 100%;
+            padding: 20px;
+            justify-content: center;
+        }
+        .box2 {
+            color: white;
+            box-shadow: 0px 0px 10px white;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: rgb(11, 0, 84);
+        }
+        .head2 {
+            text-align: center;
+        }
+        .txt2 {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .btn{
+            border: none;
+            border-radius: 20px;
+            padding: 10px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255);
+        }
+        .btn:hover {
+            transform: scale(1.1);
+            transition: 0.6s;
+            background: rgb(77, 252, 255);
+            box-shadow: 0px 0px 20px rgb(171, 0, 228);
+        }
+        @media (max-width:480px){
+        .head2{
+            font-size: 24px;
+        }
+        .txt2{
+            font-size: 16px;
+        }
+        .btn{
+            width: 100%;
+        }  
+        }
+    </style>
+</body>
+</html>
